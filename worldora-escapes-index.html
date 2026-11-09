@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Worldora Escapes | Luxury Holidays, Flights & Worldwide Travel</title>
+  <meta name="description" content="Explore more and experience more with Worldora Escapes. Enquire about luxury holidays, flights, hotels, private villas, tours, cruises and tailor-made worldwide travel.">
+  <meta name="theme-color" content="#0a1633">
+  <meta property="og:title" content="Worldora Escapes | Explore More. Experience More.">
+  <meta property="og:description" content="Extraordinary journeys, thoughtfully arranged. Discover tailor-made holidays, luxury stays and worldwide travel with Worldora Escapes.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root{--navy:#091630;--navy2:#13264a;--gold:#c8a96a;--gold-light:#ead8ad;--cream:#fbf8f1;--ink:#18233b;--muted:#697287;--line:#e9e3d7;--white:#fff;--shadow:0 18px 55px rgba(9,22,48,.10)}
+    *{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:90px}body{font-family:"DM Sans",sans-serif;color:var(--ink);background:#fff;line-height:1.65;overflow-x:hidden}body.menu-open{overflow:hidden}
+    h1,h2,h3,h4,.serif{font-family:"Playfair Display",serif;font-weight:600}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}button,a{-webkit-tap-highlight-color:transparent}
+    .container{width:min(1240px,calc(100% - 44px));margin:auto}.section{padding:104px 0}.section.cream{background:var(--cream)}.eyebrow{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);font-weight:700;display:inline-flex;align-items:center;gap:10px}.eyebrow:before{content:"";width:27px;height:1px;background:var(--gold)}
+    .section-head{text-align:center;max-width:720px;margin:0 auto 48px}.section-head .eyebrow:before{display:none}.section-head h2{font-size:clamp(34px,4.4vw,54px);line-height:1.12;color:var(--navy);margin:13px 0}.section-head p{color:var(--muted);font-size:15px}
+    .btn{display:inline-flex;justify-content:center;align-items:center;gap:10px;border:1px solid transparent;border-radius:3px;padding:14px 23px;font-size:12px;letter-spacing:1px;text-transform:uppercase;font-weight:700;cursor:pointer;transition:transform .25s,background .25s,color .25s,border-color .25s}.btn:hover{transform:translateY(-3px)}.btn-gold{background:var(--gold);color:var(--navy);box-shadow:0 9px 25px rgba(200,169,106,.23)}.btn-gold:hover{background:var(--gold-light)}.btn-outline{border-color:rgba(255,255,255,.65);color:#fff;background:rgba(255,255,255,.06)}.btn-outline:hover{background:#fff;color:var(--navy)}.btn-navy{background:var(--navy);color:#fff}.btn-navy:hover{background:var(--gold);color:var(--navy)}
+    /* Header */
+    .site-header{position:fixed;z-index:1000;inset:0 0 auto;padding:19px 0;transition:.3s ease;color:#fff}.site-header.scrolled{background:rgba(9,22,48,.97);backdrop-filter:blur(14px);padding:11px 0;box-shadow:0 8px 30px rgba(0,0,0,.15)}.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-family:"Playfair Display",serif;font-size:23px;letter-spacing:1px;font-weight:700;line-height:1.05;white-space:nowrap}.brand span{color:var(--gold)}.brand small{display:block;font:700 8px "DM Sans",sans-serif;letter-spacing:3px;color:#e7d8b4;margin-top:7px}.nav-links{display:flex;align-items:center;gap:25px;list-style:none}.nav-links a{font-size:12px;font-weight:600;letter-spacing:.4px;color:#fff;transition:color .2s}.nav-links a:hover{color:var(--gold-light)}.nav-cta{display:flex;align-items:center;gap:10px}.telegram{display:inline-flex;align-items:center;gap:8px;background:#229ed9;color:#fff;border-radius:3px;padding:11px 14px;font-size:12px;font-weight:700}.nav-cta .btn{padding:11px 15px;font-size:10px}.menu-toggle{display:none;background:none;border:0;color:#fff;font-size:24px;cursor:pointer}
+    .mobile-panel{display:none;position:fixed;z-index:1200;inset:0;background:var(--navy);padding:26px 28px}.mobile-panel.open{display:block}.mobile-top{display:flex;align-items:center;justify-content:space-between;color:#fff;margin-bottom:28px}.mobile-close{background:none;border:0;color:#fff;font-size:32px}.mobile-panel nav a{display:block;color:#fff;font:500 25px "Playfair Display",serif;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+    /* Hero */
+    .hero{min-height:850px;height:100svh;max-height:1100px;display:flex;align-items:center;position:relative;color:#fff;background:linear-gradient(90deg,rgba(5,14,32,.82) 0%,rgba(5,14,32,.56) 48%,rgba(5,14,32,.18) 100%),linear-gradient(0deg,rgba(5,14,32,.4),transparent 45%),url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2200&q=85") center/cover}
+    .hero-inner{padding-top:85px;width:100%}.hero-kicker{color:var(--gold-light);font-size:10px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:22px}.hero h1{font-size:clamp(48px,7vw,88px);line-height:1.02;max-width:820px;letter-spacing:-1.7px}.hero h1 em{color:var(--gold-light);font-weight:500}.hero-copy{max-width:590px;color:#f2eee5;font-size:16px;margin:22px 0 26px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:35px}
+    .search-panel{background:#fff;color:var(--navy);padding:17px;border-radius:5px;display:grid;grid-template-columns:1.4fr 1fr .9fr 1fr auto;gap:12px;max-width:1080px;box-shadow:0 20px 60px rgba(0,0,0,.24)}.field label{display:block;font-size:9px;text-transform:uppercase;letter-spacing:1.4px;color:#8b92a1;font-weight:700;margin:0 0 6px 2px}.field input,.field select{width:100%;min-width:0;border:1px solid #e7e3db;background:#fcfbf8;color:var(--navy);padding:12px 10px;border-radius:2px;font-size:12px;outline:none}.field input:focus,.field select:focus,.form-control:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(200,169,106,.13)}.search-panel .btn{align-self:end;white-space:nowrap;padding:13px 17px}.hero-proof{display:flex;gap:26px;flex-wrap:wrap;margin-top:24px;color:#e8e4db;font-size:11px;letter-spacing:.5px}.hero-proof span{display:flex;align-items:center;gap:8px}.hero-proof i{color:var(--gold-light)}
+    /* Intro strip */
+    .trust-strip{background:var(--navy);color:#fff;padding:22px 0}.trust-row{display:flex;justify-content:space-around;gap:20px;flex-wrap:wrap}.trust-item{display:flex;align-items:center;gap:11px;color:#e4e7ed;font-size:11px;letter-spacing:.7px;text-transform:uppercase}.trust-item i{font-size:19px;color:var(--gold)}
+    /* Cards */
+    .service-grid,.package-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.service-card{background:#fff;border:1px solid var(--line);transition:.35s;box-shadow:0 5px 22px rgba(9,22,48,.035)}.service-card:hover,.package-card:hover{transform:translateY(-7px);box-shadow:var(--shadow)}.service-photo{height:215px;position:relative;overflow:hidden}.service-photo img,.destination img,.package-photo img{transition:transform .65s}.service-card:hover img,.destination:hover img,.package-card:hover img{transform:scale(1.06)}.service-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(9,22,48,.2),transparent 60%)}.service-photo span{position:absolute;z-index:1;left:16px;top:16px;background:#fff;color:var(--navy);font-size:9px;letter-spacing:1.4px;padding:7px 10px;font-weight:700}.service-content{padding:23px 23px 25px}.service-content h3{font-size:22px;color:var(--navy);margin-bottom:8px}.service-content p{font-size:13px;color:var(--muted);min-height:62px}.text-link{display:inline-flex;align-items:center;gap:9px;color:#a17d3e;font-size:10px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;margin-top:16px}.text-link i{transition:transform .2s}.text-link:hover i{transform:translateX(5px)}
+    /* Destinations */
+    .destination-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.destination{height:300px;position:relative;overflow:hidden;background:#ddd}.destination img{width:100%;height:100%;object-fit:cover}.destination:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(5,13,30,.83),transparent 65%)}.destination-info{position:absolute;z-index:2;bottom:0;left:0;right:0;padding:20px;color:#fff}.destination-info p{font-size:10px;color:#e7d8b4;letter-spacing:1px}.destination-info h3{font-size:25px;margin:2px 0 11px}.destination-info button{border:1px solid rgba(255,255,255,.65);background:rgba(255,255,255,.08);color:#fff;padding:8px 12px;font-size:9px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:.2s}.destination-info button:hover{background:var(--gold);border-color:var(--gold);color:var(--navy)}
+    /* Packages */
+    .package-card{background:var(--navy);color:#fff;overflow:hidden;transition:.35s}.package-photo{height:210px;overflow:hidden}.package-photo img{width:100%;height:100%;object-fit:cover}.package-content{padding:22px}.package-label{color:var(--gold-light);font-size:9px;letter-spacing:1.5px;text-transform:uppercase}.package-content h3{font-size:22px;margin:8px 0}.package-content p{color:#d3d9e4;font-size:12px;min-height:58px}.package-content .btn{margin-top:17px;padding:10px 14px;font-size:9px}
+    /* Planning */
+    .planning-wrap{background:var(--navy);padding:48px;border-radius:5px;color:#fff;display:grid;grid-template-columns:1fr .95fr;gap:45px;position:relative;overflow:hidden}.planning-wrap:after{content:"";position:absolute;width:400px;height:400px;border:1px solid rgba(200,169,106,.13);border-radius:50%;right:-170px;top:-220px;box-shadow:0 0 0 35px rgba(200,169,106,.035),0 0 0 75px rgba(200,169,106,.025)}.planning-copy,.trip-card{position:relative;z-index:1}.planning-copy h2{font-size:clamp(34px,4vw,48px);line-height:1.1;margin:13px 0}.planning-copy>p{color:#d1d8e4;font-size:14px;max-width:480px}.planning-note{display:flex;gap:12px;align-items:center;color:#e9d9b4;font-size:11px;margin-top:24px}.planning-note i{font-size:20px}.trip-card{background:#fff;color:var(--navy);padding:25px;border-radius:4px;box-shadow:0 20px 45px rgba(0,0,0,.15)}.trip-card-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:17px;border-bottom:1px solid var(--line)}.trip-card-head h3{font-size:21px}.trip-status{font-size:9px;color:#7a704f;background:#f5efdf;padding:6px 9px;letter-spacing:.7px;text-transform:uppercase}.trip-row{display:flex;justify-content:space-between;gap:15px;padding:13px 0;border-bottom:1px solid #f0ede7;font-size:12px}.trip-row span{color:#858b98;text-align:right}.trip-row strong{font-weight:700}.trip-progress{margin-top:19px}.progress-caption{display:flex;justify-content:space-between;font-size:10px;color:#697287;margin-bottom:8px}.progress-track{height:5px;background:#eee9df}.progress-fill{height:100%;width:0;background:var(--gold);transition:width .4s}
+    /* Steps */
+    .steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step-card{padding:28px 23px;background:#fff;border:1px solid var(--line);position:relative}.step-number{width:43px;height:43px;display:grid;place-items:center;border:1px solid var(--gold);color:#a17d3e;font:600 19px "Playfair Display",serif;margin-bottom:22px}.step-card h3{font-size:20px;color:var(--navy);margin-bottom:8px}.step-card p{font-size:12px;color:var(--muted)}
+    /* Contact */
+    .contact-shell{background:linear-gradient(130deg,#091630,#172d55);padding:48px;display:grid;grid-template-columns:.85fr 1.15fr;gap:45px;color:#fff;border-radius:5px}.contact-copy h2{font-size:clamp(34px,4vw,48px);line-height:1.1;margin:14px 0}.contact-copy>p{font-size:13px;color:#d4dbe6}.contact-details{margin-top:26px;padding:20px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1)}.contact-details p{font-size:12px;margin:10px 0;color:#f2eee5;overflow-wrap:anywhere}.contact-details i{color:var(--gold-light);width:22px}.contact-details .btn{margin-top:12px}.enquiry-form{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-content:start}.form-control{width:100%;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.97);color:var(--navy);padding:13px 14px;border-radius:2px;font-size:12px;outline:none}.enquiry-form textarea{grid-column:1/-1;min-height:105px;resize:vertical}.enquiry-form .wide{grid-column:1/-1}.form-help{font-size:10px;color:#cbd3e0;text-align:center;grid-column:1/-1}.enquiry-form .btn{grid-column:1/-1;width:100%;margin-top:3px}.honeypot{position:absolute;left:-5000px}
+    /* Footer */
+    footer{background:#050d20;color:#c5ccda;padding:65px 0 22px}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px}.footer-brand p{font-size:12px;color:#aeb8ca;max-width:310px;margin-top:15px}.footer-col h4{font:700 11px "DM Sans",sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:#fff;margin-bottom:17px}.footer-col a{display:block;font-size:12px;color:#aeb8ca;margin:10px 0;transition:color .2s}.footer-col a:hover{color:var(--gold-light)}.footer-bottom{border-top:1px solid rgba(255,255,255,.1);margin-top:42px;padding-top:18px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:10px;color:#8792a7}.footer-social{display:flex;gap:14px}.footer-social a{color:#d9c18e;font-size:16px}
+    .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:1050px){.nav-links{gap:14px}.nav-links a{font-size:11px}.nav-cta .telegram{display:none}.destination-grid{grid-template-columns:repeat(3,1fr)}.search-panel{grid-template-columns:repeat(2,1fr)}.search-panel .btn{width:100%}}
+    @media(max-width:800px){.section{padding:75px 0}.nav-links,.nav-cta>.btn{display:none}.menu-toggle{display:block}.hero{min-height:900px;height:auto;padding:150px 0 70px;background-position:58% center}.hero-inner{padding-top:0}.hero h1{font-size:clamp(45px,10vw,70px)}.service-grid,.package-grid{grid-template-columns:repeat(2,1fr)}.destination-grid{grid-template-columns:repeat(2,1fr)}.planning-wrap,.contact-shell{grid-template-columns:1fr;padding:32px}.steps-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:520px){.container{width:min(100% - 30px,1240px)}.section{padding:62px 0}.hero{min-height:0;padding:132px 0 55px}.hero h1{font-size:46px}.hero-copy{font-size:14px}.hero-actions .btn{width:100%}.search-panel{grid-template-columns:1fr;padding:14px}.hero-proof{gap:13px}.trust-row{justify-content:flex-start}.service-grid,.package-grid,.destination-grid,.steps-grid{grid-template-columns:1fr}.destination{height:330px}.service-photo,.package-photo{height:225px}.planning-wrap,.contact-shell{padding:24px 18px}.trip-card{padding:18px}.enquiry-form{grid-template-columns:1fr}.enquiry-form>*{grid-column:1/-1}.footer-grid{grid-template-columns:1fr 1fr;gap:25px}.footer-brand{grid-column:1/-1}.section-head{margin-bottom:34px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="Worldora Escapes home">WORLDORA <span>ESCAPES</span><small>EXPLORE MORE · EXPERIENCE MORE</small></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li><li><a href="#services">Our Services</a></li><li><a href="#destinations">Destinations</a></li><li><a href="#packages">Holidays</a></li><li><a href="#how">Our Process</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta"><a class="telegram" href="https://t.me/WorldoraEscapes" target="_blank" rel="noopener"><i class="fab fa-telegram-plane"></i> Telegram</a><a class="btn btn-gold" href="#contact">Plan Your Escape</a></div>
+    <button class="menu-toggle" id="menuOpen" aria-label="Open navigation menu"><i class="fas fa-bars"></i></button>
+  </div>
+</header>
+<div class="mobile-panel" id="mobilePanel" aria-hidden="true">
+  <div class="mobile-top"><span class="brand">WORLDORA <span>ESCAPES</span></span><button class="mobile-close" id="menuClose" aria-label="Close menu">&times;</button></div>
+  <nav><a href="#home">Home</a><a href="#services">Our Services</a><a href="#destinations">Destinations</a><a href="#packages">Holiday Packages</a><a href="#how">How It Works</a><a href="#contact">Contact & Enquiry</a><a href="https://t.me/WorldoraEscapes" target="_blank" rel="noopener">Telegram</a></nav>
+</div>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <div class="hero-kicker">Bespoke journeys · Worldwide travel · Thoughtfully arranged</div>
+    <h1>Journeys Made for the <em>Life You Imagine.</em></h1>
+    <p class="hero-copy">From iconic city stays to faraway island retreats, discover flights, hotels, tours and extraordinary holidays with Worldora Escapes.</p>
+    <div class="hero-actions"><a href="#contact" class="btn btn-gold">Plan Your Escape <i class="fas fa-arrow-right"></i></a><a href="#destinations" class="btn btn-outline">Explore Destinations</a></div>
+    <form class="search-panel" id="tripSearch">
+      <div class="field"><label for="searchDestination">Destination</label><select id="searchDestination"><option value="">Where would you like to go?</option><option>Maldives</option><option>Dubai, UAE</option><option>Paris, France</option><option>London, UK</option><option>New York, USA</option><option>Tokyo, Japan</option><option>Santorini, Greece</option><option>Accra, Ghana</option><option>Singapore</option><option>Other destination</option></select></div>
+      <div class="field"><label for="searchDate">Travel date</label><input type="date" id="searchDate"></div>
+      <div class="field"><label for="searchTravellers">Travellers</label><select id="searchTravellers"><option>2 travellers</option><option>1 traveller</option><option>3 travellers</option><option>4 travellers</option><option>5+ travellers</option></select></div>
+      <div class="field"><label for="searchStyle">Travel style</label><select id="searchStyle"><option>Luxury vacation</option><option>Honeymoon</option><option>Family holiday</option><option>Friends getaway</option><option>Solo travel</option><option>Adventure</option><option>Beach holiday</option><option>Corporate retreat</option></select></div>
+      <button class="btn btn-navy" type="submit">Start enquiry <i class="fas fa-arrow-right"></i></button>
+    </form>
+    <div class="hero-proof"><span><i class="fas fa-globe"></i> Worldwide destinations</span><span><i class="fas fa-gem"></i> Tailor-made experiences</span><span><i class="fas fa-headset"></i> Personal enquiry support</span></div>
+  </div>
+</section>
+
+<div class="trust-strip"><div class="container trust-row">
+  <div class="trust-item"><i class="fas fa-plane"></i> Flights & worldwide travel</div><div class="trust-item"><i class="fas fa-hotel"></i> Exceptional places to stay</div><div class="trust-item"><i class="fas fa-compass"></i> Curated experiences</div><div class="trust-item"><i class="fas fa-star"></i> Travel shaped around you</div>
+</div></div>
+
+<section class="section" id="services"><div class="container">
+  <div class="section-head reveal"><span class="eyebrow">The Worldora Difference</span><h2>Every Detail of Your Journey, Considered.</h2><p>From the first flight to the final experience, bring every part of your trip together with one dedicated travel enquiry.</p></div>
+  <div class="service-grid" id="serviceGrid"></div>
+</div></section>
+
+<section class="section cream" id="destinations"><div class="container">
+  <div class="section-head reveal"><span class="eyebrow">A World of Possibility</span><h2>Find Somewhere Extraordinary.</h2><p>Explore remarkable cities, coastlines and cultures. Choose a destination and tell us what your ideal escape looks like.</p></div>
+  <div class="destination-grid" id="destinationGrid"></div>
+</div></section>
+
+<section class="section" id="packages"><div class="container">
+  <div class="section-head reveal"><span class="eyebrow">Made Around Your Moments</span><h2>Holidays with Your Kind of Magic.</h2><p>Whether it is a once-in-a-lifetime honeymoon or a spontaneous weekend away, we can shape the details around you.</p></div>
+  <div class="package-grid" id="packageGrid"></div>
+</div></section>
+
+<section class="section cream"><div class="container">
+  <div class="planning-wrap reveal">
+    <div class="planning-copy"><span class="eyebrow">Your Journey, Your Way</span><h2>A Thoughtful Plan. A More Beautiful Escape.</h2><p>Share your travel ideas and we will use your enquiry details to understand the destination, timing, group size and experiences you have in mind. Your trip is not booked until arrangements have been discussed and confirmed with you.</p><div class="planning-note"><i class="fas fa-shield-alt"></i><span>No instant booking claims. No invented availability. Just a personal travel enquiry.</span></div></div>
+    <div class="trip-card">
+      <div class="trip-card-head"><h3>Your trip snapshot</h3><span class="trip-status" id="tripStatus">Not submitted</span></div>
+      <div class="trip-row"><strong><i class="fas fa-map-marker-alt"></i> Destination</strong><span id="dashDestination">To be selected</span></div>
+      <div class="trip-row"><strong><i class="far fa-calendar"></i> Travel date</strong><span id="dashDate">Flexible</span></div>
+      <div class="trip-row"><strong><i class="fas fa-users"></i> Travellers</strong><span id="dashTravellers">2 travellers</span></div>
+      <div class="trip-row"><strong><i class="fas fa-suitcase"></i> Travel style</strong><span id="dashStyle">Luxury vacation</span></div>
+      <div class="trip-row"><strong><i class="fas fa-bed"></i> Stay preference</strong><span id="dashStay">Discuss with our team</span></div>
+      <div class="trip-row"><strong><i class="fas fa-route"></i> Experiences</strong><span id="dashExperiences">To be discussed</span></div>
+      <div class="trip-progress"><div class="progress-caption"><span>Enquiry preparation</span><b id="progressLabel">Ready to begin</b></div><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="section" id="how"><div class="container">
+  <div class="section-head reveal"><span class="eyebrow">Simple by Design</span><h2>From First Idea to Take-Off.</h2><p>A clear, personal process helps you make confident decisions before your journey begins.</p></div>
+  <div class="steps-grid">
+    <article class="step-card reveal"><div class="step-number">01</div><h3>Tell Us Where You Want to Go</h3><p>Share your destination, dates, group size, travel style and the experiences you would love.</p></article>
+    <article class="step-card reveal"><div class="step-number">02</div><h3>We Prepare Suitable Options</h3><p>Our team reviews your request and prepares travel options suited to your preferences.</p></article>
+    <article class="step-card reveal"><div class="step-number">03</div><h3>Review and Discuss</h3><p>We discuss the proposed arrangements with you and answer your questions before you decide.</p></article>
+    <article class="step-card reveal"><div class="step-number">04</div><h3>Confirm and Get Ready</h3><p>Once you approve the details, arrangements can be confirmed and you can prepare to travel.</p></article>
+  </div>
+</div></section>
+
+<section class="section cream" id="contact"><div class="container">
+  <div class="contact-shell reveal">
+    <div class="contact-copy"><span class="eyebrow">Begin Your Escape</span><h2>Tell Us What You’re Dreaming Of.</h2><p>Complete the enquiry form and the Worldora Escapes team can contact you to discuss your travel plans. Submitting this form is a request for information, not a confirmed booking or payment.</p>
+      <div class="contact-details"><p><i class="far fa-envelope"></i><strong>pshtmanagement@gmail.com</strong></p><p><i class="fas fa-globe"></i>Worldwide travel enquiries</p><p><i class="far fa-clock"></i>Response target: within 24 hours</p><a class="btn btn-gold" href="https://t.me/WorldoraEscapes" target="_blank" rel="noopener"><i class="fab fa-telegram-plane"></i> Message us on Telegram</a></div>
+    </div>
+    <form class="enquiry-form" id="enquiryForm" action="https://formsubmit.co/pshtmanagement@gmail.com" method="POST">
+      <input type="hidden" name="_subject" value="New Worldora Escapes Travel Enquiry">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="">
+      <div class="honeypot" aria-hidden="true"><label>Leave this field empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+      <input class="form-control" type="text" name="Full name" placeholder="Full name *" autocomplete="name" required>
+      <input class="form-control" type="email" name="Email address" placeholder="Email address *" autocomplete="email" required>
+      <input class="form-control" type="tel" name="Phone / WhatsApp" placeholder="Phone / WhatsApp number *" autocomplete="tel" required>
+      <input class="form-control" type="text" name="Destination" id="formDestination" placeholder="Destination *" required>
+      <select class="form-control" name="Travel service required" required><option value="">Travel service required *</option><option>International / domestic flights</option><option>Hotel / accommodation</option><option>Luxury resort / villa</option><option>Guided tours / sightseeing</option><option>Airport transfers</option><option>Car rental / chauffeur</option><option>Cruise holiday</option><option>Custom itinerary</option><option>Complete holiday package</option></select>
+      <input class="form-control" type="date" name="Preferred travel date" id="formDate" aria-label="Preferred travel date" required>
+      <select class="form-control" name="Number of travellers" id="formTravellers" required><option value="">Number of travellers *</option><option>1 traveller</option><option>2 travellers</option><option>3 travellers</option><option>4 travellers</option><option>5+ / group</option></select>
+      <select class="form-control" name="Holiday package type" id="formPackage"><option value="">Holiday package type</option><option>Couples vacation</option><option>Honeymoon vacation</option><option>Family vacation</option><option>Three friends vacation</option><option>Friends group vacation</option><option>Solo vacation</option><option>Birthday vacation</option><option>Luxury vacation</option><option>Weekend getaway</option><option>Corporate retreat</option><option>Adventure vacation</option><option>Beach holiday</option></select>
+      <select class="form-control" name="Estimated budget"><option value="">Estimated budget</option><option>Under $1,000</option><option>$1,000 – $2,500</option><option>$2,500 – $5,000</option><option>$5,000 – $10,000</option><option>$10,000+</option><option>Flexible / discuss with me</option></select>
+      <textarea class="form-control" name="Additional requests" placeholder="Additional requests — hotel preferences, occasion, meal needs, transfers or anything else we should know."></textarea>
+      <button class="btn btn-gold" type="submit">Send travel enquiry <i class="fas fa-arrow-right"></i></button>
+      <p class="form-help">Your details will be sent to Worldora Escapes for the purpose of responding to your enquiry. No payment is taken on this website.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="container">
+  <div class="footer-grid">
+    <div class="footer-brand"><a class="brand" href="#home">WORLDORA <span>ESCAPES</span><small>EXPLORE MORE · EXPERIENCE MORE</small></a><p>Thoughtfully arranged worldwide travel, exceptional stays and tailor-made holidays. Your next journey starts with a conversation.</p></div>
+    <div class="footer-col"><h4>Explore</h4><a href="#destinations">Destinations</a><a href="#packages">Holiday packages</a><a href="#how">How it works</a><a href="#contact">Make an enquiry</a></div>
+    <div class="footer-col"><h4>Our Services</h4><a href="#services">Flights</a><a href="#services">Hotels & villas</a><a href="#services">Tours & cruises</a><a href="#services">Transfers & car hire</a></div>
+    <div class="footer-col"><h4>Get in Touch</h4><a href="mailto:pshtmanagement@gmail.com">pshtmanagement@gmail.com</a><a href="https://t.me/WorldoraEscapes" target="_blank" rel="noopener">Telegram</a><a href="#contact">Worldwide enquiries</a></div>
+  </div>
+  <div class="footer-bottom"><span>© <span id="year"></span> Worldora Escapes. All rights reserved.</span><span>Explore More. Experience More.</span><div class="footer-social"><a href="https://t.me/WorldoraEscapes" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a><a href="mailto:pshtmanagement@gmail.com" aria-label="Email"><i class="far fa-envelope"></i></a></div></div>
+</div></footer>
+
+<script>
+const serviceData=[
+ ["International & Domestic Flights","Compare travel options for your route and preferred dates, with support for international and domestic flight enquiries.","https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=80"],
+ ["Hotels & Accommodation","From design-led boutique hotels to renowned city properties, find a stay that fits your journey.","https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80"],
+ ["Luxury Resorts & Villas","Discover private villas, island hideaways and resort stays for a more considered escape.","https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1000&q=80"],
+ ["Guided Tours & Sightseeing","Explore celebrated landmarks, local culture and memorable experiences with guided touring options.","https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1000&q=80"],
+ ["Airport Transfers","Arrange airport pickup and drop-off options to make arrival and departure feel effortless.","https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1000&q=80"],
+ ["Car Rental & Chauffeur","Ask about self-drive rentals or private chauffeur services for comfortable travel on the ground.","https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80"],
+ ["Cruise Holidays","Explore ocean and river cruise enquiries, from relaxing sailings to destination-rich itineraries.","https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1000&q=80"],
+ ["Custom Travel Itineraries","Bring your ideas together in a personalised itinerary shaped around your pace and interests.","https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1000&q=80"],
+ ["Complete Holiday Packages","Coordinate flights, accommodation, transfers and experiences through one holiday enquiry.","https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=1000&q=80"]
+];
+/* Destination and package image data */
+const destinations=[
+ ["USA","New York · Los Angeles · Miami","https://images.unsplash.com/photo-1508435234994-67cfd8f6267e?auto=format&fit=crop&w=900&q=80"],
+ ["UK","London · Edinburgh · Manchester","https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=80"],
+ ["France","Paris · Nice · French Riviera","https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"],
+ ["Italy","Rome · Venice · Amalfi Coast","https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=900&q=80"],
+ ["UAE","Dubai · Abu Dhabi","https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80"],
+ ["Maldives","Overwater villas · Island escapes","https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=900&q=80"],
+ ["Japan","Tokyo · Kyoto · Osaka","https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80"],
+ ["Canada","Toronto · Vancouver · Banff","https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=900&q=80"],
+ ["South Africa","Cape Town · Safari","https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=80"],
+ ["Greece","Santorini · Mykonos · Athens","https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=900&q=80"],
+ ["Spain","Barcelona · Madrid · Ibiza","https://images.unsplash.com/photo-1558642084-fd07fae5282e?auto=format&fit=crop&w=900&q=80"],
+ ["Thailand","Bangkok · Phuket · Krabi","https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=900&q=80"],
+ ["Portugal","Lisbon · Porto · Algarve","https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=900&q=80"],
+ ["Ghana","Accra · Cape Coast","https://images.unsplash.com/photo-1577948000111-9c970dfe3743?auto=format&fit=crop&w=900&q=80"],
+ ["Singapore","Marina Bay · Sentosa","https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=900&q=80"],
+ ["Turkey","Istanbul · Cappadocia","https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=900&q=80"],
+ ["Mauritius","Beaches · Island luxury","https://images.unsplash.com/photo-1582610116397-edb318620f90?auto=format&fit=crop&w=900&q=80"],
+ ["Kenya","Nairobi · Maasai Mara safari","https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=900&q=80"],
+ ["Australia","Sydney · Melbourne · Gold Coast","https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=900&q=80"]
+];
+const packages=[
+ ["Couples Vacations","Romantic stays, private moments and memorable experiences designed for two.","https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=80"],
+ ["Honeymoon Vacations","Celebrate the beginning of forever with beautiful stays and thoughtful details.","https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80"],
+ ["Family Vacations","A considered mix of comfort, discovery and activities for every generation.","https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1000&q=80"],
+ ["Three Friends Vacations","A getaway for three, from stylish city breaks to laid-back beach escapes.","https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1000&q=80"],
+ ["Friends Group Vacations","Bring everyone together for shared adventures, villa stays and new memories.","https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=80"],
+ ["Solo Vacations","A journey at your own pace, with room for discovery, rest and spontaneity.","https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=1000&q=80"],
+ ["Birthday Vacations","Mark your next milestone with a destination and experience worth celebrating.","https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=80"],
+ ["Luxury Vacations","Exceptional stays, elevated experiences and seamless travel arrangements.","https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80"],
+ ["Weekend Getaways","Make a little time away feel special with a refreshing short escape.","https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80"],
+ ["Corporate Retreats","Bring teams together with considered group travel and retreat arrangements.","https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=1000&q=80"],
+ ["Adventure Vacations","Explore the outdoors through active escapes, nature and unforgettable discovery.","https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1000&q=80"],
+ ["Beach Holidays","Slow down beside clear waters, beautiful shores and inviting island resorts.","https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80"]
+];
+const serviceGrid=document.getElementById("serviceGrid");
+serviceGrid.innerHTML=serviceData.map((s,i)=>`<article class="service-card reveal"><div class="service-photo"><img src="${s[2]}" alt="${s[0]}" loading="lazy"><span>0${i+1} / WORLDORA SERVICE</span></div><div class="service-content"><h3>${s[0]}</h3><p>${s[1]}</p><a class="text-link" href="#contact" data-service="${s[0]}">Enquire about this service <i class="fas fa-arrow-right"></i></a></div></article>`).join("");
+document.getElementById("destinationGrid").innerHTML=destinations.map(d=>`<article class="destination reveal"><img src="${d[2]}" alt="${d[0]} destination" loading="lazy"><div class="destination-info"><p>${d[1]}</p><h3>${d[0]}</h3><button type="button" data-destination="${d[0]}">Enquire about ${d[0]} <i class="fas fa-arrow-right"></i></button></div></article>`).join("");
+document.getElementById("packageGrid").innerHTML=packages.map(p=>`<article class="package-card reveal"><div class="package-photo"><img src="${p[2]}" alt="${p[0]}" loading="lazy"></div><div class="package-content"><span class="package-label">A WORLDORA HOLIDAY COLLECTION</span><h3>${p[0]}</h3><p>${p[1]}</p><a class="btn btn-gold" href="#contact" data-package="${p[0]}">Enquire now <i class="fas fa-arrow-right"></i></a></div></article>`).join("");
+
+const $=id=>document.getElementById(id);
+function goToEnquiry(){ $("contact").scrollIntoView({behavior:"smooth"}); }
+function setDestination(value){$("formDestination").value=value;$("searchDestination").value=[...$("searchDestination").options].some(o=>o.value===value)?value:"Other destination";updateTripCard();}
+document.addEventListener("click",e=>{
+  const dest=e.target.closest("[data-destination]");if(dest){setDestination(dest.dataset.destination);goToEnquiry();}
+  const pkg=e.target.closest("[data-package]");if(pkg){$("formPackage").value=pkg.dataset.package;goToEnquiry();}
+  const service=e.target.closest("[data-service]");if(service){const sel=document.querySelector('[name="Travel service required"]');const match=[...sel.options].find(o=>o.text.toLowerCase().includes(service.dataset.service.split(" ")[0].toLowerCase()));if(match)sel.value=match.value;}
+});
+function updateTripCard(){
+  const dest=$("formDestination").value||$("searchDestination").value;
+  const date=$("formDate").value||$("searchDate").value;
+  const travellers=$("formTravellers").value||$("searchTravellers").value;
+  const style=$("formPackage").value||$("searchStyle").value;
+  $("dashDestination").textContent=dest||"To be selected";
+  $("dashDate").textContent=date||"Flexible";
+  $("dashTravellers").textContent=travellers||"2 travellers";
+  $("dashStyle").textContent=style||"Luxury vacation";
+  const filled=[dest,date,travellers,style].filter(Boolean).length;
+  $("progressFill").style.width=(filled*25)+"%";
+  $("progressLabel").textContent=filled===0?"Ready to begin":filled===4?"Details taking shape":`${filled} of 4 details added`;
+  $("tripStatus").textContent=filled===4?"Details added":"Draft enquiry";
+}
+["formDestination","formDate","formTravellers","formPackage","searchDestination","searchDate","searchTravellers","searchStyle"].forEach(id=>$(id).addEventListener("change",updateTripCard));
+$("tripSearch").addEventListener("submit",e=>{
+  e.preventDefault();
+  $("formDestination").value=$("searchDestination").value||"";
+  $("formDate").value=$("searchDate").value||"";
+  $("formTravellers").value=$("searchTravellers").value;
+  $("formPackage").value="";
+  updateTripCard();goToEnquiry();
+});
+$("formDate").min=new Date().toISOString().split("T")[0];
+$("searchDate").min=new Date().toISOString().split("T")[0];
+$("year").textContent=new Date().getFullYear();
+
+const header=$("siteHeader");
+window.addEventListener("scroll",()=>header.classList.toggle("scrolled",window.scrollY>35),{passive:true});
+const panel=$("mobilePanel");
+function closeMenu(){panel.classList.remove("open");panel.setAttribute("aria-hidden","true");document.body.classList.remove("menu-open");}
+$("menuOpen").addEventListener("click",()=>{panel.classList.add("open");panel.setAttribute("aria-hidden","false");document.body.classList.add("menu-open");});
+$("menuClose").addEventListener("click",closeMenu);
+panel.querySelectorAll("a").forEach(a=>a.addEventListener("click",closeMenu));
+
+if("IntersectionObserver" in window){
+  const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");observer.unobserve(entry.target);}}),{threshold:.12});
+  document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+}else{document.querySelectorAll(".reveal").forEach(el=>el.classList.add("visible"));}
+</script>
+</body>
+</html>
